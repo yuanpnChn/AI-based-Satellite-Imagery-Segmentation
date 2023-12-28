@@ -1,0 +1,11 @@
+SAM_geo.ipynb   --基于SAM模型的遥感卫星影像分割
+*   功能:
+1. 完成云端或者本地任意范围、尺度、分辨率卫星影像的加载、交互和下载。
+2. 使用SAM分割模型完成影像分割任务,并将分割结果对象保存为带有地理参考的.tif和.shp文件
+3. 在云端实时查看分割结果
+
+
+*   使用方法:
+
+为了加快运行的效率,减小工具包和SAM模型安装的时间,建议在Google Colab平台上使用GPU模式运行
+URL: https://colab.research.google.com/drive/1psmUv_8JZh4RSrm_C1p916bvSmFD7Ta7
